@@ -53,3 +53,8 @@ poetry run jupyter lab src/notebooks
 ```sh
 poetry export --without-hashes --with dev --format=requirements.txt > requirements.txt
 ```
+
+## Python Libs
+
+* [dask](https://www.dask.org/) - Parallel computing
+* [FFTW](https://doku.lrz.de/fftw-fastest-fourier-transform-in-the-west-11481674.html) - FFT Wrapper
