@@ -10,7 +10,7 @@ packages = [{include = "poetry_template", from = "src"}]
 python = "^3.11"
 black = "^23.3.0"
 pytest = "^7.3.1"
-jupyterlab = {version = "^3.6.3", optional = true}
+jupyterlab = {version = "^4.0.4", optional = true}
 ruff = "^0.0.265"
 
 
