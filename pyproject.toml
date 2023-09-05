@@ -8,10 +8,12 @@ packages = [{include = "poetry_template", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-black = "^23.3.0"
-pytest = "^7.3.1"
-jupyterlab = {version = "^3.6.3", optional = true}
-ruff = "^0.0.265"
+argparse = "^1.4.0"
+black = "^23.7.0"
+pyyaml = "^6.0.1"
+pytest = "^7.4.1"
+jupyterlab = {version = "^4.0.5", optional = true}
+ruff = "^0.0.287"
 
 
 [build-system]
