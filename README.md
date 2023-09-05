@@ -24,6 +24,11 @@ curl -L https://www.toptal.com/developers/gitignore/api/python > .gitignore
 
 ```sh
 poetry env info
+# run into env
+poetry shell
+python src/poetry_template/main.py
+# or simpl
+poetry run python src/poetry_template/main.py
 ```
 
 ## Add packages
