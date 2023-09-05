@@ -2,7 +2,15 @@ import argparse
 from argparse import Namespace
 import asyncio
 import yaml
+from loguru import logger
+import sys
 
+logger.remove()
+logger.add(
+    sys.stderr,
+    format='"timestamp":"{time}","level":"{level}","message":"{message}"',
+    level="INFO",
+)
 
 def parse_args() -> Namespace:
     parser = argparse.ArgumentParser(description="Liquid Searcher")
@@ -18,10 +26,11 @@ def parse_args() -> Namespace:
 
 
 async def main(args: Namespace):
-    print("parsing config: {args.config}")
+    logger.info("parsing config file: {args.config}")
+
     with open(args.config, "r") as config_file:
         config = yaml.safe_load(config_file)
-    print("config: {}".format(config))
+    logger.info("pared configs: {}".format(config))
 
 
 if __name__ == "__main__":
