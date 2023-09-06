@@ -24,8 +24,9 @@ curl -L https://www.toptal.com/developers/gitignore/api/python > .gitignore
 
 ```sh
 poetry env info
-# run into env
-poetry shell
+poetry install # install all dependencies in the virtualenv
+poetry shell # spawn a shell within the virtual environment
+poetry show # show all packages
 python src/poetry_template/main.py
 # or simpl
 poetry run python src/poetry_template/main.py
@@ -63,3 +64,8 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 
 * [dask](https://www.dask.org/) - Parallel computing
 * [FFTW](https://doku.lrz.de/fftw-fastest-fourier-transform-in-the-west-11481674.html) - FFT Wrapper
+
+## Python tools
+
+* [black](https://github.com/psf/black) - Code formatter
+* [isort](https://pycqa.github.io/isort/) - Sort imports
