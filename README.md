@@ -27,9 +27,12 @@ poetry env info
 poetry install # install all dependencies in the virtualenv
 poetry shell # spawn a shell within the virtual environment
 poetry show # show all packages
+poetry update # update all packages
 python src/poetry_template/main.py
 # or simpl
 poetry run python src/poetry_template/main.py
+poetry build # package the project
+poetry publish # publish the project
 ```
 
 ## Add packages
