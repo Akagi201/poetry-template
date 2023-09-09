@@ -69,8 +69,10 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [FFTW](https://doku.lrz.de/fftw-fastest-fourier-transform-in-the-west-11481674.html) - FFT Wrapper
 * [httpx](https://github.com/encode/httpx) - next generation HTTP client lib and cli
 * [websockets](https://github.com/python-websockets/websockets) - websockets client and server library
+* [aiogram](https://github.com/aiogram/aiogram) - Asyncio telegram bot framework
 
 ## Python tools
 
 * [black](https://github.com/psf/black) - Code formatter
 * [isort](https://pycqa.github.io/isort/) - Sort imports
+* [mypy](https://mypy-lang.org/) - Static type checker
