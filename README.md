@@ -67,6 +67,8 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 
 * [dask](https://www.dask.org/) - Parallel computing
 * [FFTW](https://doku.lrz.de/fftw-fastest-fourier-transform-in-the-west-11481674.html) - FFT Wrapper
+* [httpx](https://github.com/encode/httpx) - next generation HTTP client lib and cli
+* [websockets](https://github.com/python-websockets/websockets) - websockets client and server library
 
 ## Python tools
 
