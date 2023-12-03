@@ -76,3 +76,8 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [black](https://github.com/psf/black) - Code formatter
 * [isort](https://pycqa.github.io/isort/) - Sort imports
 * [mypy](https://mypy-lang.org/) - Static type checker
+* [ruff](https://github.com/astral-sh/ruff) - Python linter
+
+## Python Books
+
+* [Python Design Patterns](https://python-patterns.guide/) - Python Design Patterns implementation of the [Gang of Four book](https://python-patterns.guide/gang-of-four/)
