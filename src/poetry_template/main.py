@@ -12,6 +12,7 @@ logger.add(
     level="INFO",
 )
 
+
 def parse_args() -> Namespace:
     parser = argparse.ArgumentParser(description="Liquid Searcher")
     parser.add_argument(

@@ -7,15 +7,16 @@ readme = "README.md"
 packages = [{include = "poetry_template", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-argparse = "^1.4.0"
-black = "^23.7.0"
+python = "^3.10"
 pyyaml = "^6.0.1"
-pytest = "^7.4.1"
-jupyterlab = {version = "^4.0.5", optional = true}
-ruff = "^0.0.287"
-loguru = "^0.7.1"
+pytest = "^7.4.3"
+jupyterlab = {version = "^4.0.9", optional = true}
+loguru = "^0.7.2"
 
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+ruff = "^0.1.7"
+mypy = "^1.7.1"
 
 [build-system]
 requires = ["poetry-core"]
