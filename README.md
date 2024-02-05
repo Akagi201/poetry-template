@@ -75,9 +75,10 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 
 ## Python tools
 
-* [black](https://github.com/psf/black) - Code formatter
 * [mypy](https://mypy-lang.org/) - Static type checker
-* [ruff](https://github.com/astral-sh/ruff) - Python linter
+* [ruff](https://github.com/astral-sh/ruff) - Python linter and formatter
+* [erg](https://github.com/erg-lang/erg) - Rust like lang can interop with python
+* [pylyzer](https://github.com/mtshiba/pylyzer) - alternative to mypy
 
 ## Python Books
 
