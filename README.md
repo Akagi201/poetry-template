@@ -79,6 +79,8 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [ruff](https://github.com/astral-sh/ruff) - Python linter and formatter
 * [erg](https://github.com/erg-lang/erg) - Rust like lang can interop with python
 * [pylyzer](https://github.com/mtshiba/pylyzer) - alternative to mypy
+* [pixi](https://prefix.dev/) - conda dep manager tool
+* [rvp](https://github.com/samgozman/rvp) - alternative to poetry
 
 ## Python Books
 
