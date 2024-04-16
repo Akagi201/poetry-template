@@ -72,6 +72,7 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [websockets](https://github.com/python-websockets/websockets) - websockets client and server library
 * [aiogram](https://github.com/aiogram/aiogram) - Asyncio telegram bot framework
 * [loguru](https://github.com/Delgan/loguru) - simple json logger
+* [Typer](https://github.com/tiangolo/typer) - cli parser
 
 ## Python tools
 
@@ -81,6 +82,7 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [pylyzer](https://github.com/mtshiba/pylyzer) - alternative to mypy
 * [pixi](https://prefix.dev/) - conda dep manager tool
 * [rvp](https://github.com/samgozman/rvp) - alternative to poetry
+* [unpack](https://github.com/bnkc/unpack) - Unpack python packages
 
 ## Python Books
 
