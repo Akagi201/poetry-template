@@ -73,6 +73,7 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [aiogram](https://github.com/aiogram/aiogram) - Asyncio telegram bot framework
 * [loguru](https://github.com/Delgan/loguru) - simple json logger
 * [Typer](https://github.com/tiangolo/typer) - cli parser
+* [pandera](https://github.com/unionai-oss/pandera) - polars data validation
 
 ## Python tools
 

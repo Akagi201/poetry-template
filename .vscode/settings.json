@@ -5,7 +5,7 @@
   "terminal.integrated.env.osx": {
     "PYTHONPATH": "${workspaceFolder}"
   },
-  "python.languageServer": "Pylance",
+  "python.languageServer": "Jedi",
   "python.formatting.provider": "black",
   // Enable pylance
   "python.analysis.typeCheckingMode": "basic",
