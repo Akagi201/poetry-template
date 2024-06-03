@@ -74,6 +74,7 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [loguru](https://github.com/Delgan/loguru) - simple json logger
 * [Typer](https://github.com/tiangolo/typer) - cli parser
 * [pandera](https://github.com/unionai-oss/pandera) - polars data validation
+* [more-itertools](https://more-itertools.readthedocs.io/en/stable/) - more itertools
 
 ## Python tools
 
