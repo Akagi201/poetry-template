@@ -85,6 +85,7 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [pixi](https://prefix.dev/) - conda dep manager tool
 * [rvp](https://github.com/samgozman/rvp) - alternative to poetry
 * [unpack](https://github.com/bnkc/unpack) - Unpack python packages
+* [tach](https://github.com/gauge-sh/tach) - enforce a modular architecture
 
 ## Python Books
 
