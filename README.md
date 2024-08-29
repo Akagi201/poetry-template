@@ -75,6 +75,9 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [Typer](https://github.com/tiangolo/typer) - cli parser
 * [pandera](https://github.com/unionai-oss/pandera) - polars data validation
 * [more-itertools](https://more-itertools.readthedocs.io/en/stable/) - more itertools
+* [orjson](https://github.com/ijl/orjson) - fastest json library in Rust
+* [connector-x](https://github.com/sfu-db/connector-x) - load data from databases in Rust
+* [reth-db-py](https://github.com/gibz104/reth-db-py) - load data from reth db in Rust
 
 ## Python tools
 
@@ -86,6 +89,7 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [rvp](https://github.com/samgozman/rvp) - alternative to poetry
 * [unpack](https://github.com/bnkc/unpack) - Unpack python packages
 * [tach](https://github.com/gauge-sh/tach) - enforce a modular architecture
+* [bachelier](https://bachelier.site/) - python in browser - <https://github.com/domandlj/bachelier-back> <https://github.com/domandlj/bachelier-front>
 
 ## Python Books
 
