@@ -90,6 +90,8 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [unpack](https://github.com/bnkc/unpack) - Unpack python packages
 * [tach](https://github.com/gauge-sh/tach) - enforce a modular architecture
 * [bachelier](https://bachelier.site/) - python in browser - <https://github.com/domandlj/bachelier-back> <https://github.com/domandlj/bachelier-front>
+* [zasper](https://github.com/zasper-io/zasper) - Jupyter alternative in Go.
+* [pyodide](https://github.com/pyodide/pyodide) - python runtime in browser and node.js on webassembly
 
 ## Python Books
 
