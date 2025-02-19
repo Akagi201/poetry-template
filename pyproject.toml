@@ -2,6 +2,9 @@
 name = "uv-template"
 version = "0.1.0"
 description = "uv template"
+authors = [
+    { name = "Bob Liu", email = "akagi201@gmail.com" },
+]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
