@@ -1,66 +1,9 @@
-# poetry template
-
-## New project
-
-poetry new
-
-```sh
-poetry new poetry-template --src --name=poetry-template
-```
-
-or poetry init inside a folder
-
-```sh
-poetry init
-```
+# uv template
 
 ## Create .gitignore
 
 ```sh
 curl -L https://www.toptal.com/developers/gitignore/api/python > .gitignore
-```
-
-## Poetry env
-
-```sh
-poetry env info
-poetry install # install all dependencies in the virtualenv
-poetry shell # spawn a shell within the virtual environment
-poetry show # show all packages
-poetry update # update all packages
-python src/poetry_template/main.py
-# or simpl
-poetry run python src/poetry_template/main.py
-poetry build # package the project
-poetry publish # publish the project
-```
-
-## Add packages
-
-```sh
-poetry add <package>
-poetry add ./lib/<package>
-```
-
-## Install dependencies
-
-```sh
-poetry install --with jupyterlab
-poetry install --only main
-```
-
-## Jupyter
-
-If use conda packages, use a separate venv in mini-conda
-
-```sh
-poetry run jupyter lab src/notebooks
-```
-
-## requirements.txt generation
-
-```sh
-poetry export --without-hashes --with dev --format=requirements.txt > requirements.txt
 ```
 
 ## Python Libs
@@ -78,6 +21,8 @@ poetry export --without-hashes --with dev --format=requirements.txt > requiremen
 * [orjson](https://github.com/ijl/orjson) - fastest json library in Rust
 * [connector-x](https://github.com/sfu-db/connector-x) - load data from databases in Rust
 * [reth-db-py](https://github.com/gibz104/reth-db-py) - load data from reth db in Rust
+* [typer](https://typer.tiangolo.com/) - cli
+* [rich](https://rich.readthedocs.io/en/stable/index.html) - pretty print
 
 ## Python tools
 

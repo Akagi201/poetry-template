@@ -1,22 +1,24 @@
-[tool.poetry]
-name = "poetry-template"
+[project]
+name = "uv-template"
 version = "0.1.0"
-description = ""
-authors = ["Akagi201 <akagi201@gmail.com>"]
+description = "uv template"
 readme = "README.md"
-packages = [{include = "poetry_template", from = "src"}]
+requires-python = ">=3.13"
+dependencies = [
+    "loguru>=0.7.3",
+    "pytest>=8.3.4",
+    "pyyaml>=6.0.2",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-pyyaml = "^6.0.2"
-pytest = "^8.3.4"
-jupyterlab = {version = "^4.3.5", optional = true}
-loguru = "^0.7.3"
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "ruff>=0.9.6",
+]
 
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.9.6"
-mypy = "^1.15.0"
+[project.scripts]
+main = "uv_template.main:main"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"

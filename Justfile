@@ -1,14 +1,11 @@
 install:
-  poetry install
-  poetry run pip install --upgrade pip
-  poetry run pip install -r requirements.txt
+  uv sync --all-extras
 
 format:
-  ruff format .
+  uv run ruff format .
 
 fix:
-  ruff check . --fix
+  uv run ruff check . --fix
 
 check:
-  ruff format --check
-  ruff check
+  uv run ruff check .

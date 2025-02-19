@@ -23,13 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install poetry --quiet
-          poetry config virtualenvs.create false
-          poetry install --with dev --quiet
-      - name: Check poetry
-        run: poetry check
-      - name: ruff check
-        run: poetry run ruff check .
+      - name: Install deps
+        run: uv sync --all-extras
+      - name: Lint
+        run: uv run ruff check .
